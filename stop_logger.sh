@@ -5,6 +5,6 @@ function sleep_for {
 }
 
 for i in {1..20}; do
-    echo $i | tee -a stop_log_rout_1
+    echo "$i <BUS_ID_3>" | tee -a stop_log_rout_1
     sleep `sleep_for`
 done
